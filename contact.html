@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>cash for home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header-home">
+		<!--Menu-->
+		<header>
+			<div class="logo_link">
+				<a href="#" class="logo">Griffes elegantes</a>
+				<div class="menu_link">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="service.html">Service</a>
+					<a href="Contact.html">Contact</a>
+				</div>
+			</div>
+
+			<!--responsive menu-->
+			<div class="sidebar" id="mySidebar">
+				<div class="closebtn" onclick="closeNav()">
+					<img src="images/close.png" alt="">
+				</div>
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="service.html">Service</a>
+				<a href="contact.html">Contact</a>
+				<a href="connexion.html">Login</a>
+			</div>
+
+
+			<div id="main">
+				<button class="openbtn"  onclick="openNav()">
+					<img src="images/menu.png" alt="">
+				</button>
+			</div>
+
+			<div class="link_buttons">
+				<a href="#"></a>
+				<a href="connexion.html" class="orange_link">Sign up</a>
+			</div>
+		</header>
+	</div>
+
+	<section class="contact">
+		<div class="contents">
+			<h2>Contactez nous</h2>
+			<p></p>
+		</div>
+
+		<div class="containers">
+			<div class="contactInfo">
+				<div class="boxs">
+					<div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+					<div class="text">
+						<h3>Address</h3>
+						<p>Biyem-assi,<br>Yaounde,Cameroun</p>
+					</div>
+				</div>
+
+				<div class="boxs">
+					<div class="icon"><i class="fa fa-phone"></i></div>
+					<div class="text">
+						<h3>Telephone</h3>
+						<p>00237 600 000 000</p>
+					</div>
+				</div>
+
+				<div class="boxs">
+					<div class="icon"><i class="fa fa-envelope"></i></div>
+					<div class="text">
+						<h3>Email</h3>
+						<p>griffes.elegantes@gmail.com</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="contactForm">
+				<form>
+					<h2>Send Message</h2>
+					<div class="inputBox">
+						<textarea required></textarea>
+						<span>Noms et Prenoms</span>
+					</div>
+
+					<div class="inputBox">
+						<input type="email" required>
+						<span>Email</span>
+					</div>
+
+					<div class="inputBox">
+						<input type="text" required>
+						<span>Veuillez entrer votre message</span>
+					</div>
+
+					<div class="inputBox">
+						<input type="submit" value="Envoyer">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!--footer-->
+	<footer>
+		<div class="footer-content">
+			<h1>Griffes elegantes</h1>
+			<p>Ou l'elegance rencontre la griffe de l'excellence</p>
+			<h4>contactez nous</h4>
+			<ul class="socials">
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			<p>Copyright &copy;2024 Griffes elegantes. Designed by <span>Daryl Wandji</span></p>
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/a980e88be8.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>

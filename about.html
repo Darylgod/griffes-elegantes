@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>about</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header-home">
+		<!--Menu-->
+		<header>
+			<div class="logo_link">
+				<a href="#" class="logo">Griffes elegantes</a>
+				<div class="menu_link">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="service.html">Service</a>
+					<a href="Contact.html">Contact</a>
+				</div>
+			</div>
+
+			<!--responsive menu-->
+			<div class="sidebar" id="mySidebar">
+				<div class="closebtn" onclick="closeNav()">
+					<img src="images/close.png" alt="">
+				</div>
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="service.html">Service</a>
+				<a href="contact.html">Contact</a>
+				<a href="connexion.html">Login</a>
+			</div>
+
+
+			<div id="main">
+				<button class="openbtn"  onclick="openNav()">
+					<img src="images/menu.png" alt="">
+				</button>
+			</div>
+
+			<div class="link_buttons">
+				<a href="#"></a>
+				<a href="connexion.html" class="orange_link">Sign up</a>
+			</div>
+		</header>
+	</div>
+		<section class="about-us">
+	  <div class="container">
+	    <div class="row">
+	      <div class="col-12">
+	        <h2 class="about-us__title">À propos de Griffes Elegantes</h2>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-md-6">
+	        <div class="about-us__image">
+	          <img src="images/about.jpg" alt="À propos de Décor Intérieur" class="img-fluid">
+	        </div>
+	      </div>
+	      <div class="col-md-6">
+	        <div class="about-us__content">
+	          <div class="about-us__history">
+	            <h3 class="about-us__subtitle">Notre histoire</h3>
+	            <p class="about-us__text">Griffes Elegantes a été fondée en 2010 par deux passionnés de design, Marie et Thomas, avec pour mission de transformer les espaces de vie en de véritables havres de beauté et de bien-être. Depuis, notre entreprise n'a cessé de grandir, guidée par nos valeurs d'excellence, de créativité et de service personnalisé.</p>
+	          </div>
+	          <div class="about-us__team">
+	            <h3 class="about-us__subtitle">Notre équipe</h3>
+	            <div class="team-members">
+	              <div class="team-member">
+	                <div class="team-member__image">
+	                  <img src="images/femme.jpg" alt="Marie, designer d'intérieur" class="img-fluid">
+	                </div>
+	                <div class="team-member__info">
+	                  <h4 class="team-member__name">Marie, designer d'intérieur</h4>
+	                  <p class="team-member__description">Diplômée de l'École Nationale Supérieure des Arts Décoratifs, Marie apporte plus de 15 ans d'expérience dans la conception d'intérieurs élégants et fonctionnels.</p>
+	                </div>
+	              </div>
+	              <div class="team-member">
+	                <div class="team-member__image">
+	                  <img src="images/homme.jpg" alt="Thomas, décorateur d'intérieur" class="img-fluid">
+	                </div>
+	                <div class="team-member__info">
+	                  <h4 class="team-member__name">Thomas, décorateur d'intérieur</h4>
+	                  <p class="team-member__description">Avec son sens aigu de l'esthétique et son expertise en aménagement d'espaces, Thomas est le partenaire idéal pour donner vie à vos projets de décoration.</p>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-12">
+	        <div class="about-us__projects">
+	          <h3 class="about-us__subtitle">Nos réalisations</h3>
+	          <div class="projects">
+	            <div class="project">
+	              <div class="project__image">
+	                <img src="images/appartement_familial.jpg" alt="Projet 1" class="img-fluid">
+	              </div>
+	              <div class="project__info">
+	                <h4 class="project__title">Appartement familial</h4>
+	                <p class="project__description">Nous avons transformé cet appartement en un cocon chaleureux et fonctionnel, parfaitement adapté aux besoins d'une famille.</p>
+	              </div>
+	            </div>
+	            <div class="project">
+	              <div class="project__image">
+	                <img src="images/loft-industriel.jpg" alt="Projet 2" class="img-fluid">
+	              </div>
+	              <div class="project__info">
+	                <h4 class="project__title">Loft industriel</h4>
+	                <p class="project__description">Nous avons su mettre en valeur le caractère unique de ce loft en mariant avec brio les éléments industriels et les touches de design contemporain.</p>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-12">
+	        <div class="about-us__testimonials">
+	          <h3 class="about-us__subtitle">Témoignages</h3>
+	          <div class="testimonials">
+	            <div class="testimonial">
+	              <blockquote class="testimonial__quote">
+	                <p>"L'équipe de Décor Intérieur a su comprendre parfaitement mes attentes et transformer mon appartement en un véritable cocon de bien-être."</p>
+	              </blockquote>
+	              <cite class="testimonial__author">- Émilie, cliente satisfaite</cite>
+	            </div>
+	            <div class="testimonial">
+	              <blockquote class="testimonial__quote">
+	                <p>"Grâce à leur expertise et leur créativité, Décor Intérieur a réalisé un projet de décoration qui dépasse toutes mes espérances."</p>
+	              </blockquote>
+	              <cite class="testimonial__author">- Julien, client satisfait</cite>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+	<!--footer-->
+	<footer>
+		<div class="footer-content">
+			<h1>Griffes elegantes</h1>
+			<p>Ou l'elegance rencontre la griffe de l'excellence</p>
+			<h4>contactez nous</h4>
+			<ul class="socials">
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			<p>Copyright &copy;2024 Griffes elegantes. Designed by <span>Daryl Wandji</span></p>
+		</div>
+	</footer>
+	<script src="https://kit.fontawesome.com/a980e88be8.js" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+</html>
